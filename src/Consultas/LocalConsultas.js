@@ -28,6 +28,14 @@ function GuardarConsulta() {
 
 
 BtnConsulta.addEventListener("click", function(e) {
-    e.preventDefault(); 
-    GuardarConsulta(); 
-});
+    e.preventDefault();
+    if (NombreE.value === "" || Consulta.value === "" || Fecha.value === "" ) {
+        alert("Por favor llenar todos los campos");
+    } else{
+        alert("consulta enviada exitosamente ")
+        
+        GuardarConsulta()
+    }
+    
+}
+);
