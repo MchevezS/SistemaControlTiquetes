@@ -43,6 +43,7 @@ async function validarLogin(e) {
         alert('Ocurrió un error al procesar tu solicitud. Inténtalo de nuevo más tarde.');
     }
 }
+
 btnInicio.addEventListener('click',validarLogin)
 
 
