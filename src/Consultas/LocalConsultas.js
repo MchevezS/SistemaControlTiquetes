@@ -6,7 +6,6 @@ const BtnConsulta = document.getElementById("btnEnviar");
 
 let datosLocalStorage = JSON.parse(localStorage.getItem("consultas")) || [];
 
-
 function GuardarConsulta() {
     let Datosconsulta = {
         nombre: NombreE.value,
