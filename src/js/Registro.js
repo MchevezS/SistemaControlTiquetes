@@ -46,9 +46,10 @@ async function validarVacios(e) {
 } catch (error) {
     console.error('Error al procesar la solicitud:', error);
 }
+    window.location.href = "Login.html"  // Me redirecciona otra sitio 
 }
     
     
-    btnRegistrarse.addEventListener('click',validarVacios)
+    btnRegistrarse.addEventListener('click', validarVacios)
 
 
