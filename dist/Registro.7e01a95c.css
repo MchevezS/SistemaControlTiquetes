@@ -1,0 +1,68 @@
+body {
+  height: 100vh;
+  background-color: #f0f4f8;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  display: flex;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #8ac0e4;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 8px 16px #0000001a;
+}
+
+.inputNombre, .inputEmail, .clave, .inputCodigo {
+  width: calc(100% - 24px);
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
+  transition: border-color .3s, background-color .3s;
+}
+
+.inputNombre:focus, .inputEmail:focus, .clave:focus, .inputCodigo:focus {
+  background-color: #fff;
+  border-color: #2980b9;
+}
+
+label {
+  color: #34495e;
+  margin-bottom: 8px;
+  font-weight: 600;
+  display: block;
+}
+
+.btnRegistrarse {
+  color: #fff;
+  cursor: pointer;
+  background-color: #3498db;
+  border: none;
+  border-radius: 4px;
+  padding: 14px 20px;
+  font-size: 18px;
+  transition: background-color .3s, transform .2s;
+}
+
+.btnRegistrarse:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=Registro.7e01a95c.css.map */

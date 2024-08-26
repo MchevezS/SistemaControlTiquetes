@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f4f8; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h1 {
+
+    color: #2c3e50; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px; 
+}
+
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border: 2px solid #8ac0e4; 
+}
+
+
+.inputNombre,
+.inputEmail,
+.clave,
+.inputCodigo {
+    width: calc(100% - 24px); 
+    padding: 12px;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; 
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.inputNombre:focus,
+.inputEmail:focus,
+.clave:focus,
+.inputCodigo:focus {
+    border-color: #2980b9; 
+    background-color: #ffffff; 
+}
+
+
+label {
+    display: block;
+    font-weight: 600; 
+    margin-bottom: 8px;
+    color: #34495e; 
+}
+
+
+.btnRegistrarse {
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btnRegistrarse:hover {
+    background-color: #2980b9; 
+    transform: scale(1.05); 
+}
