@@ -29,7 +29,7 @@ async function validarLogin(e) {
                 // Login exitoso
                 alert('Login exitoso');
                 // Redirigir al usuario o realizar alguna acción
-                window.location.href = "/dashboard"; // Ejemplo: redirigir al dashboard
+                window.location.href = "Consultas.html"; 
             } else {
                 // Clave incorrecta
                 alert('La clave es incorrecta');
@@ -42,7 +42,9 @@ async function validarLogin(e) {
         console.error('Error al procesar la solicitud:', error);
         alert('Ocurrió un error al procesar tu solicitud. Inténtalo de nuevo más tarde.');
     }
+    
 }
+
 
 btnInicio.addEventListener('click',validarLogin)
 

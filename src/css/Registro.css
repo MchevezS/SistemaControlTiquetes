@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f0f4f8; /* Fondo gris claro */
+    background-color: #f0f4f8; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -27,7 +27,7 @@ form {
     padding: 40px;
     max-width: 500px;
     width: 100%;
-    border: 2px solid #3498db; 
+    border: 2px solid #8ac0e4; 
 }
 
 
